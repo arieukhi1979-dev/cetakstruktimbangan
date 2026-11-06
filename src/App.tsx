@@ -433,8 +433,15 @@ export default function App() {
         {selectedPreviewRecord && (
           <div className="p-2 space-y-1">
             <div className="text-center">
+              <div className="flex justify-center pb-1">
+                <img
+                  src="/logo.png"
+                  alt="Logo Sinergi Ballpress"
+                  className="h-12 w-auto object-contain mx-auto"
+                />
+              </div>
               <h2 className="font-bold text-sm uppercase">{settings.namaUsaha}</h2>
-              {settings.subJudul && <p className="text-[10px]">{settings.subJudul}</p>}
+              {settings.subJudul && <p className="text-[10px] font-bold">{settings.subJudul}</p>}
               {settings.alamat && <p className="text-[9px]">{settings.alamat}</p>}
               {settings.telepon && <p className="text-[9px]">Telp: {settings.telepon}</p>}
               <div className="my-1 border-t border-black" />

@@ -54,10 +54,28 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
 
         {/* Content Form */}
         <form onSubmit={handleSubmit} className="p-5 space-y-4 overflow-y-auto text-xs">
+          {/* Official Logo Banner */}
+          <div className="p-3 bg-white rounded-xl flex items-center justify-between border border-slate-700 shadow-sm">
+            <div className="flex items-center gap-3">
+              <img
+                src="/logo.png"
+                alt="Logo Sinergi Ballpress"
+                className="h-10 w-auto object-contain"
+              />
+              <div>
+                <span className="font-black text-slate-900 text-xs block">SINERGI BALLPRESS</span>
+                <span className="text-[10px] text-emerald-700 font-semibold">Logo Resmi Aktif di Header &amp; Struk</span>
+              </div>
+            </div>
+            <span className="text-[10px] bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded-full">
+              Terpasang
+            </span>
+          </div>
+
           {/* Toko / Usaha Details */}
           <div className="space-y-3">
             <h4 className="font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
-              <Store className="w-4 h-4 text-blue-400" />
+              <Store className="w-4 h-4 text-emerald-400" />
               <span>Header Toko / Gudang</span>
             </h4>
 

@@ -30,22 +30,26 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="bg-slate-900/95 border-b border-slate-800 sticky top-0 z-40 backdrop-blur-md px-3 sm:px-6 py-2.5">
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-4">
-        {/* Brand / Logo */}
-        <div className="flex items-center gap-2.5 min-w-0">
-          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-blue-700 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20 shrink-0">
-            <Printer className="w-5 h-5 text-white" />
+        {/* Brand / Official Sinergi Ballpress Logo */}
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          <div className="h-10 sm:h-11 px-2 py-1 rounded-xl bg-white flex items-center justify-center shadow-md shadow-emerald-500/10 border border-slate-700 shrink-0">
+            <img
+              src="/logo.png"
+              alt="Logo Sinergi Ballpress"
+              className="h-full w-auto max-w-[100px] sm:max-w-[130px] object-contain"
+            />
           </div>
           <div className="min-w-0">
             <div className="flex items-center gap-1.5">
-              <h1 className="font-bold text-sm sm:text-base text-white tracking-tight truncate">
+              <h1 className="font-black text-sm sm:text-base text-white tracking-tight truncate">
                 {namaUsaha}
               </h1>
-              <span className="bg-blue-600/30 text-blue-300 border border-blue-500/30 text-[10px] font-semibold px-1.5 py-0.5 rounded shrink-0">
-                Bantul POS
+              <span className="bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 text-[10px] font-bold px-1.5 py-0.5 rounded shrink-0">
+                Bantul
               </span>
             </div>
-            <p className="text-[11px] text-slate-400 hidden xs:block truncate">
-              {lokasi} • Cetak Struk Timbang Ballpress
+            <p className="text-[11px] text-slate-400 hidden xs:block truncate font-medium">
+              {lokasi} • Label Hasil Press
             </p>
           </div>
         </div>

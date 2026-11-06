@@ -152,19 +152,26 @@ export const ReceiptPreview: React.FC<ReceiptPreviewProps> = ({
             boxShadow: '0 20px 30px -10px rgba(0,0,0,0.5), 0 0 10px rgba(255,255,255,0.05)',
           }}
         >
-          {/* Header */}
-          <div className="text-center space-y-0.5">
-            <h4 className="font-extrabold text-sm sm:text-base tracking-tight uppercase leading-snug">
-              {settings.namaUsaha || 'TIMBANGAN CENTRAL INDONESIA'}
+          {/* Header with Official Logo */}
+          <div className="text-center space-y-1">
+            <div className="flex justify-center pb-1">
+              <img
+                src="/logo.png"
+                alt="Logo Sinergi Ballpress"
+                className="h-12 sm:h-14 w-auto max-w-[200px] object-contain"
+              />
+            </div>
+            <h4 className="font-black text-sm sm:text-base tracking-tight uppercase leading-snug text-black">
+              {settings.namaUsaha || 'SINERGI BALLPRESS'}
             </h4>
             {settings.subJudul && (
-              <p className="text-[10px] uppercase text-gray-700">{settings.subJudul}</p>
+              <p className="text-[10px] uppercase font-bold text-gray-800">{settings.subJudul}</p>
             )}
             {settings.alamat && (
               <p className="text-[9px] text-gray-600">{settings.alamat}</p>
             )}
             {settings.telepon && (
-              <p className="text-[9px] text-gray-600">Telp: {settings.telepon}</p>
+              <p className="text-[9px] font-semibold text-gray-700">Telp/WA: {settings.telepon}</p>
             )}
           </div>
 

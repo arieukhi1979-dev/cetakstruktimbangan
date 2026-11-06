@@ -1,27 +1,27 @@
 {
   "id": "/",
-  "name": "CetakStruk Android - Printer Struk & Timbang",
-  "short_name": "CetakStruk",
-  "description": "Aplikasi Android untuk koneksi printer thermal Bluetooth/USB dan cetak struk data timbangan barang.",
+  "name": "Sinergi Ballpress - Cetak Struk Timbang",
+  "short_name": "SinergiBallpress",
+  "description": "Aplikasi Android cetak label hasil press untuk Sinergi Ballpress Bantul Yogyakarta via printer thermal Bluetooth.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#0f172a",
-  "theme_color": "#2563eb",
+  "background_color": "#020617",
+  "theme_color": "#059669",
   "categories": ["business", "productivity", "utilities"],
   "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "/icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml",
       "purpose": "any"
-    },
-    {
-      "src": "/icon.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
     }
   ]
 }
