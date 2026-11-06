@@ -76,7 +76,7 @@ export default function App() {
 
     // Auto-update to SINERGI BALLPRESS & clean label mode (no barcode, no signature)
     if (
-      settings.telepon !== '081325886282' ||
+      settings.telepon !== '081325886272' ||
       settings.showBarcode !== false ||
       settings.showSignature !== false ||
       settings.showOperator !== false
@@ -86,7 +86,7 @@ export default function App() {
         namaUsaha: 'SINERGI BALLPRESS',
         subJudul: 'LABEL RESMI HASIL PRESS',
         alamat: 'Bantul, D.I. Yogyakarta',
-        telepon: '081325886282',
+        telepon: '081325886272',
         footerPesan: 'Label Barang Resmi Sinergi Ballpress - Bantul Yogyakarta',
         showTaraGross: false,
         showBarcode: false,

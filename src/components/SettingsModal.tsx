@@ -119,7 +119,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                   type="text"
                   value={formData.telepon}
                   onChange={(e) => setFormData({ ...formData, telepon: e.target.value })}
-                  placeholder="081325886282"
+                  placeholder="081325886272"
                   className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-white"
                 />
               </div>

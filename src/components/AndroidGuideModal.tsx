@@ -262,7 +262,7 @@ export const AndroidGuideModal: React.FC<AndroidGuideModalProps> = ({ isOpen, on
         {/* Footer */}
         <div className="px-5 py-3 border-t border-slate-800 bg-slate-950/60 flex items-center justify-between">
           <span className="text-[11px] text-slate-400">
-            SINERGI BALLPRESS • 081325886282
+            SINERGI BALLPRESS • 081325886272
           </span>
           <button
             type="button"

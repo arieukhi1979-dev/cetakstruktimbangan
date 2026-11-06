@@ -11,7 +11,7 @@ export const DEFAULT_SETTINGS: PrinterSettings = {
   namaUsaha: 'SINERGI BALLPRESS',
   subJudul: 'LABEL RESMI HASIL PRESS',
   alamat: 'Bantul, D.I. Yogyakarta',
-  telepon: '081325886282',
+  telepon: '081325886272',
   footerPesan: 'Label Barang Resmi Sinergi Ballpress - Bantul Yogyakarta',
   paperWidth: '58mm',
   feedLines: 3,
