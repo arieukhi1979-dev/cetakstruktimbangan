@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <linearGradient id="printerBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with safe zone margin -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  
+  <!-- Outer glow circle -->
+  <circle cx="256" cy="256" r="190" fill="#3b82f6" opacity="0.25" />
+  
+  <!-- Thermal Receipt Paper feeding out -->
+  <path d="M168 100 L344 100 L344 260 L324 250 L304 260 L284 250 L264 260 L244 250 L224 260 L204 250 L184 260 L168 250 Z" fill="url(#paper)" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.15))" />
+  
+  <!-- Lines on the receipt paper -->
+  <rect x="196" y="130" width="120" height="10" rx="5" fill="#0f172a" />
+  <rect x="196" y="152" width="90" height="6" rx="3" fill="#64748b" />
+  <rect x="196" y="168" width="120" height="4" rx="2" fill="#94a3b8" />
+  <rect x="196" y="180" width="80" height="4" rx="2" fill="#94a3b8" />
+  <!-- Barcode on paper -->
+  <g fill="#0f172a" transform="translate(196, 198)">
+    <rect x="0" y="0" width="4" height="22" />
+    <rect x="8" y="0" width="6" height="22" />
+    <rect x="18" y="0" width="3" height="22" />
+    <rect x="25" y="0" width="8" height="22" />
+    <rect x="37" y="0" width="4" height="22" />
+    <rect x="45" y="0" width="7" height="22" />
+    <rect x="56" y="0" width="3" height="22" />
+    <rect x="63" y="0" width="9" height="22" />
+    <rect x="76" y="0" width="5" height="22" />
+    <rect x="85" y="0" width="8" height="22" />
+    <rect x="97" y="0" width="4" height="22" />
+    <rect x="105" y="0" width="6" height="22" />
+    <rect x="115" y="0" width="5" height="22" />
+  </g>
+  
+  <!-- Thermal Printer Main Body -->
+  <rect x="136" y="230" width="240" height="170" rx="24" fill="url(#printerBody)" filter="drop-shadow(0 16px 24px rgba(0,0,0,0.3))" />
+  
+  <!-- Printer Paper Slot / Cutter -->
+  <rect x="160" y="236" width="192" height="12" rx="6" fill="#020617" />
+  
+  <!-- Printer LED Indicators -->
+  <circle cx="170" cy="272" r="6" fill="#10b981" />
+  <circle cx="190" cy="272" r="6" fill="#3b82f6" />
+  <circle cx="210" cy="272" r="6" fill="#f59e0b" />
+  
+  <!-- Bluetooth Emblem on Printer -->
+  <circle cx="330" cy="316" r="24" fill="#1e293b" />
+  <path d="M330 300 L330 332 L338 324 L324 312 L338 308 L330 300 Z M330 316 L335 320 L330 325 Z M330 312 L335 308 L330 304 Z" fill="#60a5fa" stroke="#60a5fa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Weighing Scale Weight Badge -->
+  <rect x="168" y="304" width="124" height="48" rx="10" fill="#020617" stroke="#334155" stroke-width="2" />
+  <!-- Digital Segment Weight Display "25.80 kg" -->
+  <text x="230" y="336" font-family="monospace, monospace" font-size="18" font-weight="900" fill="#10b981" text-anchor="middle" letter-spacing="1">25.80 KG</text>
+  
+  <!-- Feed Button -->
+  <rect x="168" y="366" width="50" height="14" rx="7" fill="#475569" />
+  <rect x="226" y="366" width="34" height="14" rx="7" fill="#3b82f6" />
+</svg>

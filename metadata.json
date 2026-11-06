@@ -1,0 +1,6 @@
+{
+  "name": "CetakStruk Android - Printer Struk & Timbang Barang",
+  "description": "Aplikasi Android untuk koneksi printer thermal Bluetooth/USB dan cetak struk timbang: jenis barang, tanggal proses, dan berat barang.",
+  "requestFramePermissions": ["bluetooth", "serial", "usb"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
